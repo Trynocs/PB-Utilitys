@@ -1,0 +1,57 @@
+{
+  "primeblocks": {
+    "settings": {
+      "name": "Primeblocks Utilities",
+      "header": {
+        "chat": {
+          "name": "Chat"
+        }
+      },
+      "enabled": {
+        "name": "Aktiviert"
+      },
+      "discordRPCSubconfig": {
+        "name": "Discord Rich Presence",
+        "showSubServer": {
+          "name": "Unterserver anzeigen",
+          "description": "Beispielsweise §bcb1 §foder §blobby-10"
+        },
+        "showPlayerCount": {
+          "name": "Spieleranzahl anzeigen"
+        }
+      },
+      "contextSubconfig": {
+        "name": "Context Menü",
+        "description": "Weitere Optionen in dem Menü, welches erscheint, wenn du Mittelklick auf einem Spieler gedrückt hältst.",
+        "payContext": {
+          "name": "Geld überweisen",
+          "description": "Fügt dem Kontext-Menü die Option hinzu, einem Spieler Geld zu überweisen."
+        },
+        "clanInviteContext": {
+          "name": "Clan-Einladung senden",
+          "description": "Fügt dem Kontext-Menü die Option hinzu, einen Spieler in deinen aktuellen Clan einzuladen."
+        }
+      },
+      "autoFly": {
+        "name": "AutoFly",
+        "description": "Führt automatisch §b/fly §faus, wenn du einem anderen Unterserver von §bOPSUCHT.net §fbeitrittst.\nFunktioniert erst ab §cPLATIN§f."
+      },
+      "coloredMentions": {
+        "name": "Gefärbte Erwähnungen",
+        "description": "Jede Erwähnung eines gültigen Minecraft Namen @<Name> wird im Chat in Hellblau eingefärbt §b@<Name>"
+      }
+    },
+    "context": {
+      "pay": "Geld überweisen",
+      "clanInvite": "In den Clan einladen"
+    },
+    "chat": {
+      "clickableNickname": "Klicke, um den echten Namen anzusehen."
+    },
+    "rpc": {
+      "on": "Spielt auf %s",
+      "players": "%s Spieler Online",
+      "loading": "Lädt Spieleranzahl..."
+    }
+  }
+}

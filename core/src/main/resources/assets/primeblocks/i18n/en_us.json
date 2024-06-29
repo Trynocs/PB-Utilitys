@@ -1,0 +1,55 @@
+{
+  "primeblocks": {
+    "settings": {
+      "name": "Primeblocks Utilities",
+      "header": {
+        "chat": {
+          "name": "Chat"
+        }
+      },
+      "enabled": {
+        "name": "Enabled"
+      },
+      "discordRPCSubconfig": {
+        "name": "Discord Rich Presence",
+        "showSubServer": {
+          "name": "Show sub servers",
+          "description": "For example §bcb1 §for §blobby-10"
+        },
+        "showPlayerCount": {
+          "name": "Show player count"
+        }
+      },
+      "contextSubconfig": {
+        "name": "Context Menu",
+        "description": "More options in the menu that appears when you hold down center click on a player.",
+        "payContext": {
+          "name": "Pay money",
+          "description": "Adds the option to pay a player money."
+        },
+        "clanInviteContext": {
+          "name": "Send Clan Invite",
+          "description": "Adds the option to send a clan invite to the player."
+        }
+      },
+      "autoFly": {
+        "name": "AutoFly",
+        "description": "Automatically execute §b/fly §feverytime you join a sub server of §bOPSUCHT.net§f.\nOnly works with §cPLATIN §fand higher ranks."
+      },
+      "coloredMentions": {
+        "name": "Colored mentions",
+        "description": "Every instance of @<Name> you receive as a chat message gets replaced by the colored version §b@<Name>"
+      }
+    },
+    "context": {
+      "pay": "Pay money",
+      "clanInvite": "Invite to clan",
+      "friendRequest": "Send friend request"
+    },
+    "rpc": {
+      "on": "Playing on %s",
+      "players": "%s Players online",
+      "loading": "Loading player count..."
+    }
+  }
+}
